@@ -1,0 +1,60 @@
+
+.xendor {
+    max-width: 400px;
+    margin: 0 auto;
+    border: rgb(92, 81, 81) solid;
+    padding: 15px;
+    align-items: center;
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #333;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 16px;
+  
+      &:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+      }
+    }
+  
+    span.error {
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+      display: block;
+    }
+    span{
+        color: red;
+    }
+  
+    button[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  

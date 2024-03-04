@@ -1,0 +1,75 @@
+.vendor-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.vendor-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.vendor-table th,
+.vendor-table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+.vendor-table th {
+  background-color: #f2f2f2;
+  color: black;
+  font-weight: bold;
+}
+
+.vendor-table th:hover {
+  background-color: #a29696;
+}
+
+.vendor-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.vendor-table tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.edit-icon,
+.delete-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+  color: #007bff;
+}
+
+.delete-icon:hover {
+  color: #dc3545;
+}
+
+td {
+  color: black;
+}
+
+.search-bar-container {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+
+ 
+  &:focus {
+    outline: none;
+    border-color: #007bff; // Change border color when focused
+  }
+
+  &::placeholder {
+    color: #aaa; // Placeholder text color
+  }
+}
